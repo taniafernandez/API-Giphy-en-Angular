@@ -1,0 +1,5 @@
+<div class="search">
+    <h3>Buscar GIFs: </h3>
+        <input type="text" placeholder="Buscar GIFs" #gif (keyup.enter) = "search(gif.value)">
+        <button (click)="search(gif.value)">Buscar!</button> 
+</div>
